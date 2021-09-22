@@ -27,6 +27,11 @@ main {
   height: 500px;
 }
 
-.row{
+.row {
   display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
 }
