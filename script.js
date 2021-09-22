@@ -33,3 +33,17 @@ function criaButton() {
   }
 }
 criaButton();
+
+function enableButton() {
+  const buttonOff = document.querySelector('#submit-btn');
+  buttonOff.disabled = true;
+  document.querySelector('#agreement').addEventListener('input', () => {
+    const IsChecked = document.querySelector('#agreement').checked;
+    if (IsChecked === true) {
+      buttonOff.disabled = false;
+    } else {
+      buttonOff.disabled = true;
+    }
+  });
+}
+enableButton();
