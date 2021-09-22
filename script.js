@@ -1,4 +1,3 @@
-
 document.querySelector('#button-form').addEventListener('click', () => {
   const valorEmail = document.querySelector('#email').value;
   const valorSenha = document.querySelector('#password').value;
