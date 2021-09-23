@@ -50,10 +50,10 @@ enableButton();
 
 const desc = document.querySelector('#textarea');
 const cont = document.querySelector('#counter');
-const maxChars = 499;
+const maxChars = 500;
 function verifica(_e) {
   const qtdCaracteres = desc.value.length;
   const restantes = maxChars - qtdCaracteres;
   cont.innerHTML = restantes;
 }
-desc.addEventListener('keypress', verifica);
+desc.addEventListener('keyup', verifica);
