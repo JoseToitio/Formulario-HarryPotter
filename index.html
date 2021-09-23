@@ -28,7 +28,7 @@
 
       <div class="row">
         <input type="email" id="input-email" placeholder="Email">
-        <label for="house">Casa:</label>
+        <label for="">Casa:</label>
         <select name="house" id="house">
           <option value="Gitnória" id="gitnoria-house">Gitnória</option>
           <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
@@ -58,12 +58,12 @@
           <div class="column">
             <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
           </div>
-          <input type="checkbox" value="HoFs">HoFs
-          <input type="checkbox" value="Jest" >Jest
-          <input type="checkbox" value="Promises" >Promises
-          <input type="checkbox" value="React" >React
-          <input type="checkbox" value="SQL" >SQL
-          <input type="checkbox" value="Python" >Python
+          <input type="checkbox" class="subject" value="HoFs">HoFs
+          <input type="checkbox" class="subject" value="Jest" >Jest
+          <input type="checkbox" class="subject" value="Promises" >Promises
+          <input type="checkbox" class="subject" value="React" >React
+          <input type="checkbox" class="subject" value="SQL" >SQL
+          <input type="checkbox" class="subject" value="Python" >Python
         </div>
       </div>
 
@@ -78,11 +78,21 @@
 
       <div class="row">
         <label for="" id="label-infos">Você concorda com o uso das informações acima?</label>
-        <input type="checkbox" name="agree" id="agreement">
+        <input type="checkbox" name="agree" id="agreement" class="subject">
       </div>
 
       <div>
         <button type="submit" id="submit-btn">Enviar</button>
+      </div>
+
+      <div>
+        <p id="nome-submit">Nome: Alguem Aqui</p>
+        <p id="email-submit">Email: email@mail.com</p>
+        <p id="casa-submit">Casa: Casa Escolhida</p>
+        <p id="familia-submit">Família: Família Escolhida</p>
+        <p id="materias-submit">Matérias: Matérias, Marcadas, Aqui</p>
+        <p id="nota-submit">Avaliação: NotaAqui</p>
+        <p id="obs-submit">Observações: Observações aqui</p>
       </div>
 
     </form>

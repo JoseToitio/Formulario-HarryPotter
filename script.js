@@ -57,3 +57,22 @@ function verifica(_e) {
   cont.innerHTML = restantes;
 }
 desc.addEventListener('keyup', verifica);
+
+// const nomeSubmit = document.querySelector('#nome-submit');
+// const emailSubmit = document.querySelector('#email-submit');
+// const casaSubmit = document.querySelector('#casa-submit');
+// const familiaSubmit = document.querySelector('#familia-submit');
+// const materiasSubmit = document.querySelector('#materias-submit');
+// const notaSubmit = document.querySelector('#nota-submit');
+// const obsSubmit = document.querySelector('#obs-submit');
+
+// const nomeValue = document.querySelector('#input-name');
+// const sobrenomeValue = document.querySelector('#input-lastname');
+// const casaValue = document.querySelector('#house');
+// const familiaValue = document.querySelector('input[name="family"]:checked').value;
+// const
+// function submitButton() {
+//   document.querySelector('submit-btn').addEventListener('click', () => {
+
+//   });
+// }
